@@ -5,7 +5,8 @@
     "icon": "./bar/logo.png",
     "slug": "Uite will Unify In The End.",
     "splash": {
-      "image": "./bar/vincent.png"
+      "image": "./bar/vincent.png",
+      "backgroundColor": "#000000"
     }
   }
 }
