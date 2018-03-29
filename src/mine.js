@@ -59,7 +59,7 @@ class Mine extends Component{
                           style={[boxStyle.btn,boxStyle.ctn,textStyle.marginCol, {marginTop:10, marginBottom:20}]}>
           <Text style={textStyle.marginRow}>{btnLabel}</Text>
         </TouchableOpacity>
-        <Next navigate={navigate} where="Mine" />
+        <Next navigate={navigate} where="Blockchain" />
       </View>
     )
   }

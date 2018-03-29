@@ -49,7 +49,7 @@ class Tutorial extends Component{
         <TouchableOpacity
           onPress={()=>Alert.alert('Ooops, this query has no use')}          
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>{"------------>>"}</Text></TouchableOpacity>                        
+        ><Text style={textStyle.intro}>{"------------>>"}</Text></TouchableOpacity>
       </View>
     )
   }
