@@ -6,6 +6,7 @@
     "slug": "Uite will Unify In The End.",
     "splash": {
       "image": "./bar/vincent.png",
+      "resizeMode": "cover",
       "backgroundColor": "#000000"
     }
   }
