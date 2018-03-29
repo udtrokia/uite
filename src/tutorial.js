@@ -21,35 +21,35 @@ class Tutorial extends Component{
         <TouchableOpacity
           onPress={()=>navigate('Block')}
           style={[boxStyle.ctn,{marginTop:20}]}
-        ><Text style={textStyle.intro}>Block</Text></TouchableOpacity>
+        ><Text style={textStyle.intro}>BLOCK</Text></TouchableOpacity>
         <TouchableOpacity
           onPress={()=>navigate('Mine')}
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>Mine</Text></TouchableOpacity>
+        ><Text style={textStyle.intro}>MINE</Text></TouchableOpacity>
         <TouchableOpacity
           onPress={()=>navigate('Blockchain')}
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>Blockchain</Text></TouchableOpacity>
+        ><Text style={textStyle.intro}>BLOCKCHAIN</Text></TouchableOpacity>
         <TouchableOpacity
           onPress={()=>Alert.alert('developing...')}
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>Distributed</Text></TouchableOpacity>
+        ><Text style={textStyle.intro}>DISTRIBUTED</Text></TouchableOpacity>
         <TouchableOpacity
           onPress={()=>Alert.alert('developing...')}          
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>Branch</Text></TouchableOpacity>
+        ><Text style={textStyle.intro}>BRANCH</Text></TouchableOpacity>
         <TouchableOpacity
           onPress={()=>Alert.alert('developing...')}
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>Consensus</Text></TouchableOpacity>
+        ><Text style={textStyle.intro}>CONSENSUS</Text></TouchableOpacity>
         <TouchableOpacity
           onPress={()=>Alert.alert('developing...')}          
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>The Unity</Text></TouchableOpacity>
+        ><Text style={textStyle.intro}>THE UNITY</Text></TouchableOpacity>
         <TouchableOpacity
           onPress={()=>Alert.alert('Ooops, this query has no use')}          
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>{"--------->>"}</Text></TouchableOpacity>                        
+        ><Text style={textStyle.intro}>{"------------>>"}</Text></TouchableOpacity>                        
       </View>
     )
   }

@@ -11,7 +11,7 @@ export const Back = ({goBack}) =>(
   <TouchableOpacity
     onPress={()=>goBack()}
     style={[boxStyle.ctn]}>
-    <Text style={textStyle.intro}>{"<<---------"}</Text>
+    <Text style={textStyle.intro}>{"<<------------"}</Text>
   </TouchableOpacity>  
 )
 
@@ -19,6 +19,6 @@ export const Next = ({navigate, where}) =>(
   <TouchableOpacity
     onPress={()=>navigate(where)}
     style={[boxStyle.ctn]}>
-    <Text style={textStyle.intro}>{"--------->>"}</Text>
+    <Text style={textStyle.intro}>{"------------>>"}</Text>
   </TouchableOpacity>  
 )
