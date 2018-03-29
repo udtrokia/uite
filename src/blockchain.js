@@ -46,7 +46,7 @@ class Block extends Component{
       while(minehash !== newhash){
         minehash = RMD160.hex( prehash + Math.floor(Math.random()*60*24*24))
       }
-      this.setState({btnLabel: `AWESOME! You've just create a blockchain!👾`, nexthash: newhash})
+      this.setState({btnLabel: `AWESOME! You've just create a blockchain! 👾`, nexthash: newhash})
     }
   }
   render(){

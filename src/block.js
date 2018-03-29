@@ -33,7 +33,7 @@ class Block extends Component{
     }else if(prehash === `prehash`){
       this.setState({prehash: RMD160.hex( nonce, timestamp ), btnLabel: `create hash`})
     }else if(hash === `hash`){
-      this.setState({hash: RMD160.hex( prehash, nonce, timestamp ), btnLabel: `this is a simple block`})
+      this.setState({hash: RMD160.hex( prehash, nonce, timestamp ), btnLabel: `this is a simple block 🙃`})
     }
   }
   render(){

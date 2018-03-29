@@ -32,14 +32,14 @@ class Mine extends Component{
     }else if(timestamp === `timestamp`){
        this.setState({timestamp: new Date().getTime(), btnLabel: `create nonce`})
     }else if(nonce === `nonce`){
-       this.setState({nonce: Math.floor(Math.random()*60*60*24), btnLabel: `mine( if you press this, please wait a momennt )` })
+       this.setState({nonce: Math.floor(Math.random()*60*60*24), btnLabel: `mine( if you press this, please wait a momennt 🍀 )` })
     }else if(hash === `hash`){
       const newhash = RMD160.hex( prehash + Math.floor(Math.random()*60*24*24) )
       let minehash;
       while(minehash !== newhash){
         minehash = RMD160.hex( prehash + Math.floor(Math.random()*60*24*24))
       }
-      this.setState({btnLabel: `you've just mined out a block!`, hash: newhash})
+      this.setState({btnLabel: `you've just mined out a block! 🌎`, hash: newhash})
     }
   }
   render(){
