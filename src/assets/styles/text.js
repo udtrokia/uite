@@ -6,10 +6,17 @@ const text = StyleSheet.create({
   },
   intro:{
     fontSize: 24,
-    margin: 5
   },
   common:{
     fontSize: 22
+  },
+  marginCol:{
+    marginTop: 5,
+    marginBottom: 5
+  },
+  marginRow:{
+    marginLeft:5,
+    marginRight: 5
   }
 })
 

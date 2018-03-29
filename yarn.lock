@@ -3809,6 +3809,10 @@ jsesc@~0.5.0:
   version "0.5.0"
   resolved "http://r.cnpmjs.org/jsesc/download/jsesc-0.5.0.tgz#e7dee66e35d6fc16f710fe91d5cf69f70f08911d"
 
+jshashes@^1.0.7:
+  version "1.0.7"
+  resolved "http://r.cnpmjs.org/jshashes/download/jshashes-1.0.7.tgz#bed8c97a0e9632fd0513916f55f76dd5486be59f"
+
 json-fallback@0.0.1:
   version "0.0.1"
   resolved "http://r.cnpmjs.org/json-fallback/download/json-fallback-0.0.1.tgz#e8e3083c3fddad0f9b5f09d3312074442580d781"

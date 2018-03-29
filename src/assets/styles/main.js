@@ -12,18 +12,14 @@ const style = StyleSheet.create({
     alignItems: 'center',
   },
   btn:{
-    width: 80,
-    height: 30,
+    minWidth: 80,
+    minHeight: 30,
     borderColor: '#000',
     borderStyle: 'solid',
     borderWidth: 1.5
   },
-  back:{
-    position:'absolute',
-    top: 100,
-    left: 24
-  },
   input:{
+    margin: 10,
     width: 80,
     fontSize: 20,
     borderColor: '#000',

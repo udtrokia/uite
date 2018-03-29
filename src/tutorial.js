@@ -3,7 +3,7 @@ import {
   View, Text, Alert,
   TouchableOpacity
 } from 'react-native';
-import BackButton from './assets/components/back'
+import { Back } from './assets/components/backandnext'
 
 import boxStyle from './assets/styles/main'
 import textStyle from './assets/styles/text'
@@ -17,7 +17,7 @@ class Tutorial extends Component{
     const { navigate,goBack } = this.props.navigation
     return(
       <View style={[boxStyle.ctn,boxStyle.body,{flex:1}]}>
-        <BackButton goBack={goBack} />
+        <Back goBack={goBack} />
         <TouchableOpacity
           onPress={()=>navigate('Block')}
           style={[boxStyle.ctn,{marginTop:20}]}
@@ -25,7 +25,7 @@ class Tutorial extends Component{
         <TouchableOpacity
           onPress={()=>navigate('Mine')}
           style={[boxStyle.ctn, {marginTop:20}]}
-        ><Text style={textStyle.intro}>Miner</Text></TouchableOpacity>
+        ><Text style={textStyle.intro}>Mine</Text></TouchableOpacity>
         <TouchableOpacity
           onPress={()=>navigate('Blockchain')}
           style={[boxStyle.ctn, {marginTop:20}]}

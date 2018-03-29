@@ -8,7 +8,7 @@ import boxStyle from './assets/styles/main'
 import textStyle from './assets/styles/text'
 import text from './assets/text'
 
-class Block extends Component{
+class Entrance extends Component{
   static navigationOptions = {
     header: null
   }
@@ -30,4 +30,4 @@ class Block extends Component{
   }
 }
 
-export default Block
+export default Entrance
