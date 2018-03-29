@@ -3,11 +3,17 @@
     "sdkVersion": "25.0.0",
     "name": "uite",
     "icon": "./bar/logo.png",
-    "slug": "Uite will Unify In The End.",
+    "slug": "Uite-will-Unify-In-The-End",
     "splash": {
       "image": "./bar/vincent.png",
       "resizeMode": "cover",
       "backgroundColor": "#000000"
-    }
+    },
+    "ios":{
+			"bundleIdentifier":"com.udtrokia.uite"
+		},
+		"android":{
+			"package":"com.udtrokia.uite"
+		},
   }
 }
