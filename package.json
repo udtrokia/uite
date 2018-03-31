@@ -7,7 +7,9 @@
     "@types/react-navigation": "^1.5.0",
     "jest-expo": "25.0.0",
     "react-native-scripts": "1.11.1",
-    "react-test-renderer": "16.2.0"
+    "react-test-renderer": "16.2.0",
+    "tslint": "^5.9.1",
+    "typescript": "^2.8.1"
   },
   "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
   "scripts": {
@@ -15,6 +17,7 @@
     "eject": "react-native-scripts eject",
     "android": "react-native-scripts android",
     "ios": "react-native-scripts ios",
+    "lint": "tslint -c tslint.json 'tsrc/**/*.{ts,tsx}' ",
     "test": "node node_modules/jest/bin/jest.js"
   },
   "jest": {
