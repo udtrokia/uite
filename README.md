@@ -5,9 +5,11 @@
 
 [expo](https://expo.io/@udtrokia/Uite-will-Unify-In-The-End), [android](https://exp-shell-app-assets.s3-us-west-1.amazonaws.com/android%2F%40udtrokia%2FUite-will-Unify-In-The-End-b9c85002-3337-11e8-ba0f-0a580a781f05-signed.apk)
 
-## Two part intro:
+## Intro:
 
-hello, there! here is a blockchain running over mobile-device powered by React-Native.  
+Hello, there! This is a blockchain running over mobile-device.  
+
+After this tutorial version, JavaScirpt plugin will come soon. link the mobile and save Intangible Cultural Heritage.
 
 
 + Tutorial
@@ -20,3 +22,7 @@ hello, there! here is a blockchain running over mobile-device powered by React-N
   + The Unity
 + Scan
   + link the world
+
+#### 2018.4.1
+
+migrate project to TypeScript, a few bugs to fix.
